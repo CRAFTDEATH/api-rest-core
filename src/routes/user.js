@@ -108,7 +108,7 @@ routes.get('/users/:id', asyncHandler(UserController.show))
  *            "updatedAt": "2021-01-11T17:48:21.447Z",
  *            "createdAt": "2021-01-11T17:48:21.447Z", 
  *         },
- *         "location": "http://localhost:3333/users/1"  
+ *         "location": `${process.env.APP_URL} users/1`  
  *    }
  * @apiErrorExample {json} Error-Response:
  *    HTTP/1.1 400 Bad Request
@@ -157,7 +157,7 @@ routes.post('/users', asyncHandler(UserController.store))
  *    {
  *        "statusCode": 200,
  *        "message": "Ok",
- *        "location": "http://localhost:3333/users/1"      
+ *        "location": `${process.env.APP_URL}users/1`      
  *    }
  * @apiErrorExample {json} Error-Response:
  *    HTTP/1.1 404 Not Found
