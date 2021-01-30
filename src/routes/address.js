@@ -137,7 +137,7 @@ routes.get('/addresses/:userId', asyncHandler(AddressController.show))
  *          "updatedAt": "2021-01-15T16:24:06.684Z",
  *          "createdAt": "2021-01-15T16:24:06.684Z"
  *    },
- *    "location": "http://localhost:3333/addresses/14"
+ *    "location": "https://api-rest-core.herokuapp.com/addresses/14"
  * }
  * @apiErrorExample {json} Error-Response:
  *     HTTP/1.1 404 Not Found
@@ -188,7 +188,7 @@ routes.post('/addresses', asyncHandler(AddressController.store))
  *    {
  *      "statusCode": 200,
  *      "message": "Ok",
- *      "location": "http://localhost:3333/addresses/14"   
+ *      "location": "https://api-rest-core.herokuapp.com/addresses/14"   
  *    }
  *
  *

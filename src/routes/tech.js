@@ -101,7 +101,7 @@ routes.get('/techs/:id', asyncHandler(TechController.show))
  *            "createdAt": "2021-01-15T14:13:37.000Z",
  *            "updatedAt": "2021-01-15T14:13:37.000Z"
  *         },
- *         "location": "http://localhost:3333/techs/9"
+ *         "location": "https://api-rest-core.herokuapp.com/techs/9"
  *    }
  * @apiErrorExample {json} Error-Response:
  *    HTTP/1.1 404 Not Found
@@ -149,7 +149,7 @@ routes.post('/techs', asyncHandler(TechController.store))
  *  {
  *      "statusCode": 200,
  *      "message": "Ok",
- *      "location": "http://localhost:3333/techs/9"
+ *      "location": "https://api-rest-core.herokuapp.com/techs/9"
  *  }
  * @apiErrorExample {json} Error-Response:
  *    HTTP/1.1 404 Not Found

@@ -80,7 +80,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 Ok\n{\n  \"statusCode\": 200,\n  \"message\": \"Ok\",\n  \"location\": \"http://localhost:3333/addresses/14\"   \n}",
+          "content": "HTTP/1.1 200 Ok\n{\n  \"statusCode\": 200,\n  \"message\": \"Ok\",\n  \"location\": \"https://api-rest-core.herokuapp.com/addresses/14\"   \n}",
           "type": "json"
         }
       ]
@@ -309,7 +309,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "   HTTP/1.1 201 Created\n   {\n         \"statusCode\": 201,\n         \"message\": \"Created\",\n         \"address\": {\n         \"id\": 23,\n         \"country\": \"Brazil\",\n         \"zipCode\": \"19900\",\n         \"state\": \"São Paulo\",\n         \"city\": \"Douradinho\",\n         \"street\": \"Marechal Rondon\",\n         \"number\": \"308\",\n         \"complement\": \"Casa\",\n         \"userId\": 8,\n         \"updatedAt\": \"2021-01-15T16:24:06.684Z\",\n         \"createdAt\": \"2021-01-15T16:24:06.684Z\"\n   },\n   \"location\": \"http://localhost:3333/addresses/14\"\n}",
+          "content": "   HTTP/1.1 201 Created\n   {\n         \"statusCode\": 201,\n         \"message\": \"Created\",\n         \"address\": {\n         \"id\": 23,\n         \"country\": \"Brazil\",\n         \"zipCode\": \"19900\",\n         \"state\": \"São Paulo\",\n         \"city\": \"Douradinho\",\n         \"street\": \"Marechal Rondon\",\n         \"number\": \"308\",\n         \"complement\": \"Casa\",\n         \"userId\": 8,\n         \"updatedAt\": \"2021-01-15T16:24:06.684Z\",\n         \"createdAt\": \"2021-01-15T16:24:06.684Z\"\n   },\n   \"location\": \"https://api-rest-core.herokuapp.com/addresses/14\"\n}",
           "type": "json"
         }
       ]
@@ -368,7 +368,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 Ok  \n{\n    \"statusCode\": 200,\n    \"message\": \"Ok\",\n    \"location\": \"http://localhost:3333/techs/9\"\n}",
+          "content": "HTTP/1.1 200 Ok  \n{\n    \"statusCode\": 200,\n    \"message\": \"Ok\",\n    \"location\": \"https://api-rest-core.herokuapp.com/techs/9\"\n}",
           "type": "json"
         }
       ]
@@ -555,7 +555,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 201 Created\n{\n    \"statusCode\": 201,\n    \"message\": \"Created\",\n    \"tech\": {\n        \"id\": 9,\n        \"name\": \"Cobol\",\n        \"createdAt\": \"2021-01-15T14:13:37.000Z\",\n        \"updatedAt\": \"2021-01-15T14:13:37.000Z\"\n     },\n     \"location\": \"http://localhost:3333/techs/9\"\n}",
+          "content": "HTTP/1.1 201 Created\n{\n    \"statusCode\": 201,\n    \"message\": \"Created\",\n    \"tech\": {\n        \"id\": 9,\n        \"name\": \"Cobol\",\n        \"createdAt\": \"2021-01-15T14:13:37.000Z\",\n        \"updatedAt\": \"2021-01-15T14:13:37.000Z\"\n     },\n     \"location\": \"https://api-rest-core.herokuapp.com/techs/9\"\n}",
           "type": "json"
         }
       ]
@@ -621,7 +621,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 Ok\n{\n    \"statusCode\": 200,\n    \"message\": \"Ok\",\n    \"location\": `${process.env.APP_URL}users/1`      \n}",
+          "content": "HTTP/1.1 200 Ok\n{\n    \"statusCode\": 200,\n    \"message\": \"Ok\",\n    \"location\": \"https://api-rest-core.herokuapp.com/users/1\"      \n}",
           "type": "json"
         }
       ]
@@ -808,7 +808,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 201 Created\n{\n    \"statusCode\": 201,\n    \"message\": \"Created\",\n    \"users\": {\n        \"id\": 1,\n        \"name\": \"example\",\n        \"email\": \"example@hotmail.com\",\n        \"updatedAt\": \"2021-01-11T17:48:21.447Z\",\n        \"createdAt\": \"2021-01-11T17:48:21.447Z\", \n     },\n     \"location\": `${process.env.APP_URL} users/1`  \n}",
+          "content": "HTTP/1.1 201 Created\n{\n    \"statusCode\": 201,\n    \"message\": \"Created\",\n    \"users\": {\n        \"id\": 1,\n        \"name\": \"example\",\n        \"email\": \"example@hotmail.com\",\n        \"updatedAt\": \"2021-01-11T17:48:21.447Z\",\n        \"createdAt\": \"2021-01-11T17:48:21.447Z\", \n     },\n     \"location\": \"https://api-rest-core.herokuapp.com/users/1\"  \n}",
           "type": "json"
         }
       ]
