@@ -621,7 +621,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 Ok\n{\n    \"statusCode\": 200,\n    \"message\": \"Ok\",\n    \"location\": \"http://localhost:3333/users/1\"      \n}",
+          "content": "HTTP/1.1 200 Ok\n{\n    \"statusCode\": 200,\n    \"message\": \"Ok\",\n    \"location\": `${process.env.APP_URL}users/1`      \n}",
           "type": "json"
         }
       ]
@@ -808,7 +808,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 201 Created\n{\n    \"statusCode\": 201,\n    \"message\": \"Created\",\n    \"users\": {\n        \"id\": 1,\n        \"name\": \"example\",\n        \"email\": \"example@hotmail.com\",\n        \"updatedAt\": \"2021-01-11T17:48:21.447Z\",\n        \"createdAt\": \"2021-01-11T17:48:21.447Z\", \n     },\n     \"location\": \"http://localhost:3333/users/1\"  \n}",
+          "content": "HTTP/1.1 201 Created\n{\n    \"statusCode\": 201,\n    \"message\": \"Created\",\n    \"users\": {\n        \"id\": 1,\n        \"name\": \"example\",\n        \"email\": \"example@hotmail.com\",\n        \"updatedAt\": \"2021-01-11T17:48:21.447Z\",\n        \"createdAt\": \"2021-01-11T17:48:21.447Z\", \n     },\n     \"location\": `${process.env.APP_URL} users/1`  \n}",
           "type": "json"
         }
       ]
