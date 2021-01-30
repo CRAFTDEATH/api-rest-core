@@ -157,7 +157,7 @@ routes.post('/users', asyncHandler(UserController.store))
  *    {
  *        "statusCode": 200,
  *        "message": "Ok",
- *        "location": "http://localhost:3333/users/1"      
+ *        "location": `${process.env.APP_URL}users/1`      
  *    }
  * @apiErrorExample {json} Error-Response:
  *    HTTP/1.1 404 Not Found
